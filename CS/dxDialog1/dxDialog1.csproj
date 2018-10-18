@@ -148,20 +148,10 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <SDKReference Include="DevExpress.Controls, Version=18.2">
-      <Name>DevExpress.Controls</Name>
-    </SDKReference>
-    <SDKReference Include="DevExpress.Core, version=18.2">
-      <Name>DevExpress.Core</Name>
-    </SDKReference>
-    <SDKReference Include="DevExpress.Data, Version=18.2">
-      <Name>DevExpress.Data</Name>
-    </SDKReference>
-    <SDKReference Include="DevExpress.Visualization, Version=18.2">
-      <Name>DevExpress.Visualization</Name>
+    <SDKReference Include="DevExpress.Uwp, Version=18.2">
+      <Name>DevExpress.Uwp</Name>
     </SDKReference>
   </ItemGroup>
-  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
