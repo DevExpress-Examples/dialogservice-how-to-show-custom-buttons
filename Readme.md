@@ -6,7 +6,7 @@ The **DialogService** class provides a special overloaded **ShowDialogAsync** me
 
 * **C#:**
 
-```
+```cs
     var result = await DialogService.ShowDialogAsync(
         new List<UICommand>() { restoreDefaultsCommand, saveCommand, cancelCommand},
         "Check options that you want to enable",
@@ -14,7 +14,7 @@ The **DialogService** class provides a special overloaded **ShowDialogAsync** me
 ```
 
 * **Visual Basic:**
-```
+```vb
     Dim result = Await DialogService.ShowDialogAsync(New List(Of UICommand)() From {
         restoreDefaultsCommand,
         saveCommand,
